@@ -10,3 +10,4 @@ export default function ClientProvider({
 }) {
   return <QueryClientProvider client={client}>{children}</QueryClientProvider>;
 }
+//
